@@ -79,6 +79,7 @@ header .row{
 /*ABOUT*/
 .about{
     padding-bottom:100px ;
+
 }
 .about__gears{
     padding: 0;
@@ -103,8 +104,11 @@ header .row{
 /*CARD*/
 .card{
     padding-top: 30px;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
+    padding-bottom: 120px;
+    border-bottom-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border: 0;
+    background: url("../img/begraund1.png") no-repeat center top /cover;
 }
 
 /*CARD_NET*/
@@ -117,6 +121,7 @@ header .row{
     border: 3px;
     height: 100%;
     width: 100%;
+    background-color: white;
 }
 .card__body{
     padding: 50px;
@@ -138,6 +143,7 @@ header .row{
 .brands_card__list{
     border-radius: 0;
     box-shadow: none;
+    background-color: rgba(201,139,192,0);
 }
 .brands_card__body{
     padding: 23px 41px;
@@ -151,6 +157,7 @@ header .row{
 .company{
     padding-top: 120px;
     padding-bottom: 182px;
+    background: url("../img/begraund2.png") no-repeat center top /cover;
 }
 
 .company__left p{
@@ -175,6 +182,7 @@ header .row{
 .service{
     background-color: #F3F8F8;
     padding: 90px 0;
+    background: url("../img/begraund3.png") no-repeat center top /cover;
 }
 
 .service__p{
@@ -196,6 +204,7 @@ header .row{
     font-size: 18px;
     font-weight: 500;
     padding: 45px 0;
+    background: url("../img/begraund4.png") no-repeat center top /cover;
 }
 .brands__h1{
     padding-bottom: 40px;
@@ -214,6 +223,7 @@ header .row{
     font-size: 18px;
     font-weight: 500;
     color: #357466;
+    background: url("../img/begraund5.png") no-repeat center top /cover;
 }
 .news__h1{
     padding-bottom: 92px;
@@ -232,6 +242,7 @@ header .row{
     color: #357466;
     font-size: 16px;
     font-weight: 700;
+    background: url("../img/begraund6.png") no-repeat center top /cover;
 }
 .footer a:not(:last-child){
     padding-bottom: 15px;
